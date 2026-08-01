@@ -1,8 +1,23 @@
 aid: scriptlogic
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/scriptlogic.png
 name: Scriptlogic
-description: Scriptlogic is a company surfaced as a portfolio company of insight-partners and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: ScriptLogic was an IT systems-management software vendor known for Active Directory
+  administration, desktop/Group Policy management, and Microsoft platform administration tooling. The
+  brand and its products were acquired by Quest Software and fully absorbed; the scriptlogic.com domain
+  now issues a 301 redirect to Quest's Microsoft Platform Management solutions page. ScriptLogic operates
+  no independent website, developer portal, documentation, or public API surface today. This profile was
+  seeded as a VC-portfolio stub; enrichment found no first-party API artifacts to harvest.
 url: https://raw.githubusercontent.com/api-evangelist/scriptlogic/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +25,27 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: quest-software
+x-redirect: https://www.quest.com/solutions/microsoft-platform-management/
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- IT Management
+- Active Directory
+- Microsoft Platform Management
+- Systems Management
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
